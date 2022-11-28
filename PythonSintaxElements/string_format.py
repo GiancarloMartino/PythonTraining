@@ -16,5 +16,8 @@ print(name + " " + school)
 
 print(name + " works at " + school + ".")
 
-#python string.format()
+# python string.format()
 print("{} works at {}.".format(name, school))
+
+# python string format preferred version
+print(f"{name} works at {school}.")
